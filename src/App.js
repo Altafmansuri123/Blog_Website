@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Topbar from './topbar/Topbar';
+
 
 function App() {
     return (
-        <div className="App">
-            <h1>Hello World</h1>
-        </div>
+        <>
+            <Topbar />
+        </>
     );
 }
 
